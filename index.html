@@ -8,6 +8,11 @@
 </head>
 <body>
     <header style='color: blue;'>标题</header>
-    <p style='font-size: 20px;color: orange''>我是内容我是内容</p>
+    <p id="text" style='font-size: 20px;color: orange''>我是内容我是内容</p>
 </body>
+<script>
+    document.getElementById('text').addEventListener('click', function(e){
+        alert('你好!');
+    });
+</script>
 </html>
